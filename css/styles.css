@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=MuseoModerno:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@400;600&display=swap");
+@import "nav-bar.css";
+@import "reset.css";
+@import "variables.css";
+@import "status-bar.css";
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
