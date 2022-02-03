@@ -1,9 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=MuseoModerno:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@400;600&display=swap");
-@import "nav-bar.css";
 @import "reset.css";
 @import "variables.css";
-@import "status-bar.css";
+
+/* Components */
+@import "components/nav-bar.css";
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+@import "components/alt-screen-header.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+
+@import "scenes/login.css";
+@import "scenes/friends.css";
+@import "scenes/find.css";
+@import "scenes/more.css";
+@import "scenes/setting.css";
+@import "scenes/chat.css";
+
+
 body {
-  font-family: "Open Sans", sans-serif;
-  height: 1000vh;
+      
+  font-family: "Open Sans", sans-serif; 
+  /* height: 1000vh; */
+  color: #2e363e;
+}
+
+.main-screen{
+  padding: 0px var(--horizontal-space);
 }
